@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
+	'hostname' => 'jupiter-fl.thewebhostserver.com',
+	'username' => 'zoeweb',
+	'password' => 'sm*y^#lbjs7',
+	'database' => 'zoeweb_allnewme',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
