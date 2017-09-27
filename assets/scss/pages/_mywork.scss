@@ -1,0 +1,28 @@
+.Mywork{
+	.myworkpage{
+		margin: 80px 0px;
+		h5{
+			padding:$smallpadding;
+			margin: $smallmargin;
+		}
+		.workpart{
+			margin: $midmargin;
+			padding:$midpadding;
+			box-shadow: $smallshadow;
+			-webkit-box-shadow:$smallshadow;
+			.description{
+			padding:$smallpadding;
+			margin: $smallmargin;
+			}
+			.workmesocial{
+				padding:$smallpadding 0px;
+				font-weight:$bitfontweight;
+				a {color:$colorfont;}
+				a:hover{text-decoration:none;}
+			}
+			.innerade{
+				margin:$midmargin 0px;
+			}
+		}
+	}
+}

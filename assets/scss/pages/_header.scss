@@ -1,0 +1,40 @@
+.navbar{
+	background:$bgbase-color;
+	border-radius:0px;
+	box-shadow:$boxshadow;
+	.row{
+		width: 100%;
+    	margin: 0 auto;
+	}
+	.navbar-header a{
+		margin:$smallmargin;
+		padding:$smallpadding;
+	}
+	.navbar-body{
+		.navbar-nav{
+			float: left;
+			font-size:$normalfont;
+			font-weight: $bitfontweight;
+			@include liststyle;
+			a{color:$textwbg-color;}
+			a:hover{text-decoration: none;}
+			.hvr-underline-from-left:before{
+				background: $colorfont;
+    			height: 1px;
+			}
+		}
+		.navbar-right{
+			float: right;
+			font-size:$normalfont;
+			font-weight: $bitfontweight;
+			@include liststyle;
+			a{color:$textwbg-color;}
+			a:hover{text-decoration: none;}
+			.hvr-underline-from-left:before{
+				background: $colorfont;
+    			height: 1px;
+			}
+		}	
+	}
+	
+}

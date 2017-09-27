@@ -1,0 +1,37 @@
+.footerinfor{
+	padding:$bigmargin $midmargin;
+	background:$bgdark-color;
+	color:$textwbg-color;
+	box-shadow:$btmboxshadow;
+	.liststyle{
+		.title{
+			padding:$smallpadding;
+			margin: $smallmargin;
+			font-weight:$bitfontweight;
+			span{
+				padding:$smallpadding;
+			}
+		}
+	}
+	.linkbtm{		
+		padding:$smallpadding;
+		margin: $smallmargin;
+		a{
+		color:$textwbg-color / 1.5;
+		text-decoration: none;
+	}
+	}
+	.contactme{
+		padding:$smallpadding;
+		margin: $smallmargin;	
+	}
+	a{
+		color:$textwbg-color;
+		text-decoration: none;
+	}
+	.midbord{
+		margin-top: $smallmargin;
+    	margin-bottom: $smallmargin;
+    	border-left: 1px #424242 solid;
+	}
+}

@@ -1,0 +1,36 @@
+$primarybg:#ef8621;
+$dangerbg:#d4430b;
+$primarybgactive:#d86d11;
+$primarybghover:#d86d11;
+$primarybgfocus:#d86d11;
+
+$primarybd:#db7717;
+$primarybdactive:#b3590b;
+$primarybdhover:#db7717;
+$dangerbd:#9e430e;
+$dangerbdfocus:#b3590b;
+$dangerbdactive:#b3590b;
+$dangerbdhover:#db7717;
+
+$btshadow: 0 0 5px 1px rgb(243, 162, 85);
+.btn-primary{
+	background:$primarybg;
+    border: 1px $primarybd solid;	
+}
+.btn-primary:hover{
+	background:$primarybghover;
+    border: 1px $primarybd solid;
+}
+.btn-primary:active{
+	background:$primarybgactive;
+    border: 1px $primarybdactive solid;
+}
+.btn-primary:focus{
+	background:$primarybgactive;
+    border: 1px $primarybdactive solid;
+    box-shadow:$btshadow;
+}
+.btn-primary:active:hover{
+	background-color: $primarybghover;
+    border-color:$primarybdhover;
+}

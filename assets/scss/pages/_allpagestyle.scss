@@ -1,0 +1,71 @@
+body{
+	webkit-transition: all 0.3s ease 0.0s;
+    transition: all 0.3s ease 0.0s;
+    font-family: 'Montserrat', sans-serif;
+    font-size: $normalfont;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    img{
+    	max-width: 100%;
+    	max-height: 100%;
+    }
+    a{color:$colorfont;}
+    a:hover{color:$colorfonthover;}
+    a:focus{
+    	color: #fc8a0c;
+    	box-shadow: none;
+    	outline:0;
+    	text-decoration: none;
+    }
+    .pagination-link{
+    	color: $colorfont;
+    	padding:$smallpadding;
+    	margin:$smallpadding;
+    	a{border:1px solid rgba(49, 49, 49, 0.13);}
+    	a:hover{text-decoration:none;}
+    	a:focus{text-decoration:none;}
+    }
+    .maintitle{
+    	margin:$smallmargin;
+    	padding:$smallpadding;
+		font-size:$titlefont;
+		font-weight:$bitfontweight;
+	}
+	.secondetitle{
+		margin:$smallmargin;
+    	padding:$smallpadding;
+		font-size:$titlefont;
+		font-weight:$normalfontweight;
+	}
+	.thirdtitle{
+		margin:$smallmargin;
+    	padding:$smallpadding;
+		font-size:$normalfont;
+		font-weight:$normalfontweight;
+	}
+	.bgtitleone{
+		margin:$smallmargin;
+    	padding:$smallpadding;
+		color:$colorfont;
+		font-size:$normalfont;
+		font-weight:$normalfontweight;
+	}
+	.bgtitleblack{	
+		margin:$smallmargin;
+    	padding:$smallpadding;
+		color:$textwbg-color;
+		font-size:$normalfont;
+		font-weight:$normalfontweight;
+	}
+	.formstyle{
+		margin:$smallpadding;
+		padding:$smallmargin;
+	}
+	.form-control:focus{
+		border-color: #f6cba1;
+	}
+}
+    
+    

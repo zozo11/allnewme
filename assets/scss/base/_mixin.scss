@@ -1,0 +1,9 @@
+@mixin liststyle{
+	span{
+		list-style:none;
+		display: inline-block;
+		float: left;
+		margin:$smallmargin;
+		padding:$smallpadding;
+	}
+}

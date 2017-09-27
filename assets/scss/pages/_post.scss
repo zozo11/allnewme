@@ -1,0 +1,57 @@
+.mainpost{
+	margin:$postpagemargin;
+	.btn:focus{
+    	box-shadow: none;
+    	outline:0;
+    }
+	.postslice{
+		padding:$smallpadding;
+		margin:$smallmargin;
+		width: 100%;
+		box-shadow:$smallshadow;
+	}
+	.hvr-curl-bottom-right:before{
+		background: linear-gradient(315deg, #e8e8e8 45%, rgba(119, 119, 119, 0.44) 50%, rgba(143, 143, 143, 0.38) 56%, #eaeaea 80%);
+  		box-shadow: -1px -1px 5px 1px rgba(173, 173, 173, 0.22);
+	}
+	small{
+		padding: $smallmargin 0px;
+	}
+}
+
+.innerposet{
+	margin:$postpagemargin;
+	.postmianpart{
+		padding:$smallpadding;
+		margin:$smallmargin;
+	}
+	.postcomment{
+		.commentswell{
+			margin:0px $smallmargin;
+		}
+		.addcommen{
+			border:$border;
+		}
+	}
+}
+
+.categorypage{
+	min-height: 500px;
+	margin:$postpagemargin;
+	.list-group{
+		width: 100%;
+		margin:$smallmargin;
+		padding:$smallpadding;
+	}
+	.list-group-item{
+		margin: $smallmargin;
+	}
+}
+
+.createpostpage{
+	margin:$postpagemargin;
+}
+.createcatepage{
+	margin:$postpagemargin;
+	min-height: 500px;
+}
