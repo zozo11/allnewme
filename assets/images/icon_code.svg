@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
+<g>
+	<path fill="none" d="M35.2,59.8c-19.4,0-35.1-15.7-35.1-35.1C0.1,15.1,4,6.3,10.2,0H0v60h60V49.6C53.6,55.9,44.9,59.8,35.2,59.8z"
+		/>
+	<path fill="#F1F2F3" d="M35.2,59.8c9.7,0,18.4-3.9,24.8-10.2V0H10.2C4,6.3,0.1,15.1,0.1,24.7C0.1,44.1,15.8,59.8,35.2,59.8z"/>
+</g>
+<g>
+	<rect x="8.6" y="10.2" fill="#475059" width="48" height="36"/>
+	<rect x="10.4" y="12.1" fill="#ADEBF6" width="44.4" height="32.4"/>
+	<rect x="10.4" y="12.1" fill="#FFDB7A" width="44.4" height="7.2"/>
+	<rect x="12.2" y="13.9" fill="#FFFFFF" width="40.8" height="3.6"/>
+	<rect x="49.4" y="13.9" fill="#E25D34" width="3.6" height="3.6"/>
+	<rect x="12.5" y="25.1" fill="#E25D34" width="15.8" height="1.9"/>
+	<rect x="12.5" y="32.9" fill="#E25D34" width="15.8" height="1.9"/>
+	<rect x="12.5" y="21.1" fill="#E25D34" width="8.3" height="1.9"/>
+	<rect x="23" y="21.1" fill="#E25D34" width="5.3" height="1.9"/>
+	<rect x="12.5" y="29" fill="#E25D34" width="8.3" height="1.9"/>
+	<rect x="23" y="29" fill="#E25D34" width="5.3" height="1.9"/>
+	<rect x="12.5" y="36.9" fill="#E25D34" width="6.8" height="1.9"/>
+	<rect x="21.5" y="36.9" fill="#E25D34" width="6.8" height="1.9"/>
+	<rect x="12.5" y="40.8" fill="#E25D34" width="6.8" height="1.9"/>
+	<rect x="21.5" y="40.8" fill="#E25D34" width="6.8" height="1.9"/>
+	<circle fill="#FFFFFF" cx="41.6" cy="30" r="9"/>
+	<g>
+		<path fill="#475059" d="M39.8,33.1l-4.7-2.5v-1.3l4.7-2.5v1.5l-3.3,1.5l3.3,1.5V33.1z"/>
+		<path fill="#475059" d="M40.2,34.2l1.7-8.4h1l-1.7,8.4H40.2z"/>
+		<path fill="#475059" d="M43.4,33.1v-1.5l3.3-1.5l-3.3-1.5v-1.5l4.7,2.5v1.4L43.4,33.1z"/>
+	</g>
+	<polygon fill="#475059" points="54.8,39.9 49.8,39.9 49.8,38.2 45.1,40.8 49.8,43.5 49.8,41.7 54.8,41.7 	"/>
+</g>
+</svg>
