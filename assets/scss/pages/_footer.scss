@@ -3,6 +3,16 @@
 	background:$bgdark-color;
 	color:$textwbg-color;
 	box-shadow:$btmboxshadow;
+	.socialmidea{
+		.footersoion{
+			text-align: center;
+			width: 40px;
+		    height: 40px;
+		    margin: 0 auto;
+		    line-height: 2.1;
+		    padding: $smallpadding;
+		}
+	}
 	.liststyle{
 		.title{
 			padding:$smallpadding;
@@ -34,4 +44,5 @@
     	margin-bottom: $smallmargin;
     	border-left: 1px #424242 solid;
 	}
+	.contactme img{width: 5%;}
 }

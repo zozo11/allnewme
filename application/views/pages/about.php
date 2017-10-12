@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-sm-12 col-md-6 aboutimg"><img src="<?php echo asset_url('images/homebannerimg.jpg') ?>"></div>
 			<div class="col-sm-12 col-md-6">
-				<div class="secondetitle"><?= $title ?></div>
+				<div class="secondetitle"><?= $title ?> Me</div>
 				<hr>
 				<div class="descriptme">
 					<p>

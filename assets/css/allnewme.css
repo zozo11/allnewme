@@ -4879,40 +4879,45 @@ body {
   .navbar .navbar-header a {
     margin: 15px;
     padding: 5px; }
-  .navbar .navbar-body .navbar-nav {
-    float: left;
-    font-size: 14px;
-    font-weight: 600; }
-    .navbar .navbar-body .navbar-nav span {
-      list-style: none;
-      display: inline-block;
+    .navbar .navbar-header a img {
+      width: 50%; }
+  .navbar .navbar-body {
+    display: block; }
+    .navbar .navbar-body .navbar-nav {
+      padding: 20px;
       float: left;
-      margin: 15px;
-      padding: 5px; }
-    .navbar .navbar-body .navbar-nav a {
-      color: #fff; }
-    .navbar .navbar-body .navbar-nav a:hover {
-      text-decoration: none; }
-    .navbar .navbar-body .navbar-nav .hvr-underline-from-left:before {
-      background: #d2610f;
-      height: 1px; }
-  .navbar .navbar-body .navbar-right {
-    float: right;
-    font-size: 14px;
-    font-weight: 600; }
-    .navbar .navbar-body .navbar-right span {
-      list-style: none;
-      display: inline-block;
-      float: left;
-      margin: 15px;
-      padding: 5px; }
-    .navbar .navbar-body .navbar-right a {
-      color: #fff; }
-    .navbar .navbar-body .navbar-right a:hover {
-      text-decoration: none; }
-    .navbar .navbar-body .navbar-right .hvr-underline-from-left:before {
-      background: #d2610f;
-      height: 1px; }
+      font-size: 14px;
+      font-weight: 600; }
+      .navbar .navbar-body .navbar-nav span {
+        list-style: none;
+        display: inline-block;
+        float: left;
+        margin: 15px;
+        padding: 5px; }
+      .navbar .navbar-body .navbar-nav a {
+        color: #fff; }
+      .navbar .navbar-body .navbar-nav a:hover {
+        text-decoration: none; }
+      .navbar .navbar-body .navbar-nav .hvr-underline-from-left:before {
+        background: #d2610f;
+        height: 1px; }
+    .navbar .navbar-body .navbar-right {
+      float: right;
+      font-size: 14px;
+      font-weight: 600; }
+      .navbar .navbar-body .navbar-right span {
+        list-style: none;
+        display: inline-block;
+        float: left;
+        margin: 15px;
+        padding: 5px; }
+      .navbar .navbar-body .navbar-right a {
+        color: #fff; }
+      .navbar .navbar-body .navbar-right a:hover {
+        text-decoration: none; }
+      .navbar .navbar-body .navbar-right .hvr-underline-from-left:before {
+        background: #d2610f;
+        height: 1px; }
   .navbar .smallmenu {
     display: none;
     float: right;
@@ -4940,14 +4945,14 @@ body {
     transform-origin: left top;
     transform: rotate(45deg);
     width: 40px; }
-  @media (max-width: 950px) and (min-width: 300px) {
+  @media (max-width: 1020px) and (min-width: 300px) {
     .navbar .navbar-body {
       margin: 50px 0px 0px 0px; }
     .navbar .navbar-nav {
       width: 100%; }
-      .navbar .navbar-nav .headermenu {
+      .navbar .navbar-nav .topmenulist {
         display: none; }
-        .navbar .navbar-nav .headermenu .hvr-underline-from-left {
+        .navbar .navbar-nav .topmenulist .hvr-underline-from-left {
           width: 100%;
           text-align: center; }
     .navbar .navbar-right {
@@ -4955,12 +4960,22 @@ body {
       text-align: center; }
     .navbar .smallmenu {
       display: block; } }
+  @media (max-width: 2000px) and (min-width: 1020px) {
+    .navbar .topmenulist {
+      display: block !important; } }
 
 .footerinfor {
   padding: 35px 25px;
   background: #3a3a3a;
   color: #fff;
   box-shadow: 0px -10px 10px 2px rgba(86, 86, 86, 0.11); }
+  .footerinfor .socialmidea .footersoion {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 2.1;
+    padding: 5px; }
   .footerinfor .liststyle .title {
     padding: 5px;
     margin: 15px;
@@ -4983,6 +4998,8 @@ body {
     margin-top: 15px;
     margin-bottom: 15px;
     border-left: 1px #424242 solid; }
+  .footerinfor .contactme img {
+    width: 5%; }
 
 .homebannerspecial .header-holder {
   width: 100%; }
@@ -5082,7 +5099,17 @@ body {
   .container-fluid .fourpart .fourblock.wapper {
     overflow: hidden;
     margin: 80px 15px 15px 15px; }
+    .container-fluid .fourpart .fourblock.wapper .innerwapper .fowapper {
+      content: '';
+      width: 100%;
+      height: 100%;
+      opacity: 0.6;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      background: #363636; }
     .container-fluid .fourpart .fourblock.wapper .innerwapper a .maintitle {
+      z-index: 1;
       color: #fff;
       position: absolute; }
     .container-fluid .fourpart .fourblock.wapper .innerwapper a img {
@@ -5095,7 +5122,7 @@ body {
   left: 0%;
   top: -20%;
   width: 100%;
-  height: 85%;
+  height: 90%;
   background-image: url();
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -5114,9 +5141,6 @@ body {
     padding: 10px;
     box-shadow: 0px 3px 20px 1px rgba(31, 31, 31, 0.16);
     -webkit-box-shadow: 0px 3px 20px 1px rgba(31, 31, 31, 0.16); }
-    .Mywork .myworkpage .workpart .description {
-      padding: 5px;
-      margin: 15px; }
     .Mywork .myworkpage .workpart .workmesocial {
       padding: 5px 0px;
       font-weight: 600; }
@@ -5159,8 +5183,12 @@ body {
   .innerposet .postmianpart {
     padding: 5px;
     margin: 15px; }
+  .innerposet .postcomment .btnpostfct {
+    display: inline-block; }
   .innerposet .postcomment .commentswell {
     margin: 0px 15px; }
+    .innerposet .postcomment .commentswell .connmentbody {
+      padding: 0px 20px; }
   .innerposet .postcomment .addcommen {
     border: 1px #e3e3e3 solid; }
 

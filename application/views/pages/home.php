@@ -24,7 +24,6 @@
 								More than 5 years design experience<br>
 								Fouce one user experience and webinterface design<br>
 								Excellent with Adobe design suite<br>
-								Solid experience in invisionapp Figmaand UXPin
 								</p>
 							</div>
 						</a>
@@ -35,8 +34,8 @@
 							<div class="personaldsc">
 								<p>
 								2 years codeing experience<br>
-								HTML5/ CSS3/ SCSS/ Javascript/ PHP<br>
-								Magento/ Codeiginter/ jQuery/ Vue.js/ Snap.svg<br>
+								HTML5/ CSS3/ Javascript/ PHP<br>
+								Magento/ Codeiginter/ jQuery/SLIME/ Angular 4/SCSS<br>
 								</p>
 							</div>
 						</a>
@@ -58,12 +57,11 @@
 						<div class="innerthird htmltag">
 							<div class="maintitle">HTML5/CSS3</div>
 							<div class="thirdbody">
-								<div class="thirdskill">1</div>
-								<div class="thirdskill">2</div>
-								<div class="thirdskill">3</div>
-								<div class="thirdskill">1</div>
-								<div class="thirdskill">2</div>
-								<div class="thirdskill">3</div>
+								<div class="thirdskill">HTML5</div>
+								<div class="thirdskill">CSS3</div>
+								<div class="thirdskill">SASS</div>
+								<div class="thirdskill">Twitter Bootstrap</div>
+								<div class="thirdskill">SLIME</div>
 							</div>
 						</div>
 					</div>
@@ -71,11 +69,10 @@
 						<div class="innerthird phptag">
 							<div class="maintitle">PHP</div>
 							<div class="thirdbody">
+								<div class="thirdskill">PHP</div>
 								<div class="thirdskill">Magento</div>
 								<div class="thirdskill">Codeginer</div>
-								<div class="thirdskill">3</div>
-								<div class="thirdskill">3</div>
-								<div class="thirdskill">3</div>
+								<div class="thirdskill">WordPress</div>
 							</div>
 						</div>
 					</div>
@@ -83,13 +80,10 @@
 						<div class="innerthird jstag">
 							<div class="maintitle">JavaScript</div>
 							<div class="secondbody">
-								<div class="thirdskill">1</div>
-								<div class="thirdskill">2</div>
-								<div class="thirdskill">3</div>
-								<div class="thirdskill">3</div>
-								<div class="thirdskill">3</div>
-								<div class="thirdskill">3</div>
-								<div class="thirdskill">3</div>
+								<div class="thirdskill">JavaScript</div>
+								<div class="thirdskill">jQuery</div>
+								<div class="thirdskill">JSON</div>
+								<div class="thirdskill">Angular 4</div>
 							</div>
 						</div>
 					</div>
@@ -109,9 +103,10 @@
 						<div class="fourblock wapper">
 							<div class="hvr-grow">
 								<div class="innerwapper">
-									<a href="">
-										<div class="maintitle">Web/APP Design</div>
-										<img src="http://via.placeholder.com/350x350">
+									<a href="<?php echo base_url();?>mywork/#ade">
+										<div class="maintitle">Advertising Design</div>
+										<div class="fowapper"></div>
+										<img src="<?php echo asset_url('images/advbg.png') ?>">
 									</a>
 								</div>
 							</div>
@@ -121,9 +116,10 @@
 						<div class="fourblock wapper">
 							<div class="hvr-grow">
 								<div class="innerwapper">
-									<a href="">
+									<a href="<?php echo base_url();?>mywork/#ude">
 										<div class="maintitle">Web/APP Design</div>
-										<img src="http://via.placeholder.com/350x350">
+										<div class="fowapper"></div>
+										<img src="<?php echo asset_url('images/uibg.png') ?>">
 									</a>
 								</div>
 							</div>
@@ -133,9 +129,10 @@
 						<div class="fourblock wapper">
 							<div class="hvr-grow">
 								<div class="innerwapper">
-									<a href="">
-										<div class="maintitle">Web/APP Design</div>
-										<img src="http://via.placeholder.com/350x350">
+									<a href="<?php echo base_url();?>mywork/#vde">
+										<div class="maintitle">Videos Create</div>
+										<div class="fowapper"></div>
+										<img src="<?php echo asset_url('images/videobg.png') ?>">
 									</a>
 								</div>
 							</div>

@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link rel="zoeweb icon" href="<?php echo asset_url("images/zoeweb_favicon.ico") ?>" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="<?php echo asset_url('css/bootstrap.min.css');?>">
     <link rel="stylesheet" type="text/css" href="<?php echo asset_url('css/bootstrap.min.css.map');?>">
@@ -24,12 +24,12 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="<?php echo base_url(); ?>">ZOE LOVE U</a>
+						<a class="navbar-brand" href="<?php echo base_url(); ?>"><img src="<?php echo asset_url("images/logozoe.svg"); ?>"/></a>
 					</div>
           <div class="smallmenu"></div>
 					<div class="navbar-body">      
 						<div class="navbar-nav">          
-							<div class="headermenu liststyle">
+							<div class="headermenu liststyle topmenulist">
 								<span class="hvr-underline-from-left"><a href="<?php echo base_url(); ?>">Home</a></span>
 								<span class="hvr-underline-from-left"><a href="<?php echo base_url(); ?>about">About</a></span>
 								<span class="hvr-underline-from-left"><a href="<?php echo base_url(); ?>mywork">My work</a></span>
@@ -38,7 +38,7 @@
 							</div>
 						</div>
 						<div class="navbar-nav navbar-right">
-							<div class="headermenu liststyle">
+							<div class="headermenu liststyle topmenulist">
 							<?php if(!$this->session->userdata('logged_in')) : ?>
 								<span class="hvr-underline-from-left"><a href="<?php echo base_url(); ?>users/login">Login</a></span>	
 								<span class="hvr-underline-from-left"><a href="<?php echo base_url(); ?>users/register">Register</a></span>	

@@ -15,10 +15,16 @@
 			<div class="col-sm-12 col-md-12 postcomment">
 				<?php if($this->session->userdata('user_id') == $post['user_id']): ?>
 					<hr>
-					<a class="btn btn-default pull-left" href="<?php echo base_url();?>posts/edit/<?php echo $post['slug']; ?>">Edit</a>
-					<?php echo form_open('/posts/delete/' . $post['id']); ?>
-						<input type="submit" value="delete" class="btn btn-danger">
-					</form> 
+					<div>
+						<div class="btnpostfct">
+							<a class="btn btn-default pull-left" href="<?php echo base_url();?>posts/edit/<?php echo $post['slug']; ?>"><botton class="btn btn-primary">Edit</botton></a>
+						</div>
+						<div class="btnpostfct">
+						<?php echo form_open('/posts/delete/' . $post['id']); ?>
+							<input type="submit" value="delete" class="btn btn-danger">		
+						</form> 
+						</div>
+					</div>
 				<?php endif; ?>
 				
 				<h5 class="secondetitle">Commnets</h5>
@@ -26,11 +32,11 @@
 
 				 	<?php foreach ($comments as $comment): ?>
 				 		<div class="commentswell">
-							<p><?php echo $comment['body']; ?>[by <strong><?php echo $comment['name']; ?></strong>]</p>
+							<p class="connmentbody"><?php echo $comment['body']; ?>[by <strong><?php echo $comment['name']; ?></strong>]</p>
 						</div>
 					<?php endforeach; ?>
 				<?php else: ?>
-					<p>Sorry No Comments To Display!</p>
+					<p>Hey! Let's make the first comment now!</p>
 				<?php endif; ?>
 				<hr>
 				<h5 class="secondetitle">Add Comment</h5>

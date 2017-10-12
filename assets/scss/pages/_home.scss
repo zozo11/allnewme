@@ -112,8 +112,19 @@
 			overflow: hidden;
 			margin: 80px 15px 15px 15px;
 			.innerwapper{
+				.fowapper{
+					content: '';
+					width: 100%;
+					height: 100%;
+					opacity: 0.6;
+					position: absolute;
+					top: 0px;
+					left: 0px;
+					background: $text-color;
+				}
 				a {
 					.maintitle{
+						z-index: 1;
 						color:$textwbg-color;
 						position: absolute;
 					}
@@ -133,7 +144,7 @@
 	left: 0%;
 	top: -20%;
 	width: 100%;
-	height:85%;
+	height:90%;
 	background-image: url();
 	background-repeat: no-repeat;
 	background-size: 100% 100%;

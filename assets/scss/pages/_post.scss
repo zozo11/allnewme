@@ -26,8 +26,10 @@
 		margin:$smallmargin;
 	}
 	.postcomment{
+		.btnpostfct{display: inline-block;}
 		.commentswell{
 			margin:0px $smallmargin;
+			.connmentbody{padding: 0px 20px;}
 		}
 		.addcommen{
 			border:$border;
