@@ -68,6 +68,7 @@
 @import "modules/bottons.scss";
 @import "modules/animate.css";
 @import "modules/hover.css";
+@import "modules/jquery-ui.min.css";
 /*Base - Base styles, variables, mixins, etc*/
 @import "base/base";
 @import "base/mixin";
@@ -79,6 +80,7 @@
 @import "pages/footer";
 @import "pages/home";
 @import "pages/mywork";
+@import "pages/aboutme";
 @import "pages/category";
 @import "pages/post";
 @import "pages/registerandlogin";

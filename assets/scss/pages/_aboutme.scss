@@ -1,0 +1,13 @@
+.aboutpage{
+	min-height: 650px;
+	padding:80px $bigpadding;
+	.aboutimg{
+		padding:$midpadding;
+		img{
+			width: 80%;
+			padding:$smallpadding;
+			border:$border;
+			box-shadow: $smallshadow;
+		}
+	}
+}

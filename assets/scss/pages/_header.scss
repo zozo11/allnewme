@@ -1,7 +1,7 @@
 .navbar{
 	background:$bgbase-color;
 	border-radius:0px;
-	box-shadow:$boxshadow;
+	display: block;
 	.row{
 		width: 100%;
     	margin: 0 auto;
@@ -36,5 +36,59 @@
 			}
 		}	
 	}
-	
+	.smallmenu{
+		display: none;
+		float: right;
+		margin: $midpadding;
+	    width: 30px;
+	    height: 30px;
+	    position: relative;
+	    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 47%, #ffffff 49%, white 58%, rgba(0, 0, 0, 0) 50%);
+	}
+	.smallmenu:before,.smallmenu:after{
+	    content: '';
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    top: 0;
+	    bottom: 0;
+	}
+	.smallmenu:before{
+	    background: linear-gradient(0deg, white 0%, white 10%, rgba(255, 255, 255, 0) 0);
+	}
+	.sopen:before{
+	    transform-origin:left bottom;
+	    transform:rotate(-45deg);
+	    width: 39px;
+	}
+	.smallmenu:after{
+	    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 89%, white 80%);
+	}
+	.sopen:after{
+	    transform-origin:left top;
+	    transform:rotate(45deg);
+	    width: 40px;
+	}
+
+	@media (max-width: 950px) and (min-width: 300px) {
+		.navbar-body{
+			margin:50px 0px 0px 0px;
+		}
+		.navbar-nav{
+			width: 100%;
+			.headermenu {
+		    	display: none;
+		    	.hvr-underline-from-left{
+		    		width: 100%;
+	    			text-align: center;
+		    	}
+	  		}
+		}
+	  	.navbar-right{
+	    	width: 100%;
+    		text-align: center;
+	    }
+	    .smallmenu{display: block;}
+	}
+
 }

@@ -1,43 +1,33 @@
-.bg-animation{
-	position: absolute;
-	opacity: 1;
-	left: 0%;
-	top: -20%;
-	width: 100%;
-	height: 108%;
-	background-image: url();
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-color: $bgbase-color;
-	-webkit-transform: skewY(-10deg);
-	transform: skewY(-10deg);
-	z-index: -1;
+.homebannerspecial{
+	.header-holder{
+		width: 100%;
+	.homebannerword{
+		color: $textwbg-color;
+		font-weight: 600;
+		font-size: 30px;
+		padding: 100px $midpadding;
+		min-height: 500px;
+		text-align: center;
+	}
+}
 }
 .container-fluid{
-	.header-holder{
-	    .layout{
-	    	min-height: 800px;
-	    	width: 100%;
-			padding: 150px 20px 50px 20px;
-			font-weight: 600;
-			font-size:40px;
-			color:$textwbg-color;
-			position: relative;
-	    	z-index: 100;
-	    	.topinfor{
-	    		margin:30px 0px;
-	    	}
-	    }
+	.titleimageicon{
+		width: 15%;
+		margin: 0 auto;
 	}
+	.subdescribe{text-align: center;}
 	.sectiontwo{
 		min-height: 300px;
-		margin: $bigmargin;
+		margin:100px $bigmargin;
     	.maintitle{
     		margin:0px;
     		text-align:center;
     		border-bottom: 2px #ef8621 solid;
     	}
     	.porto{
+    		margin-top: $smallmargin;
+    		padding: $smallpadding;
 			a{color:$text-color;}
 			a:hover{text-decoration: none;}	
     	}
@@ -78,7 +68,7 @@
 		}
 		.thirdbord{
 			margin:80px 0px 0px 0px;
-			text-align: center;
+			text-align:center;
 			.innerthird{
 				padding:$smallpadding;
 				background: #fcfcfd;
@@ -86,12 +76,26 @@
 	    		border-radius: 5px;
 	    		box-shadow: $smallshadow;
 	    		-webkit-box-shadow:$smallshadow;
-	    		.thirdskill{margin:$smallmargin;}	
-			}
-			.maintitle{
-				background-image:url(images/icon_code.svg);
-				background-repeat:none;
-			}
+	    		.thirdskill{margin:$smallmargin;}
+	    	}
+	    	.htmltag{
+	    		background-image:url(../images/icon_code.svg);
+				background-position-x: 100%;
+    			background-size: 80px;
+    			background-repeat: no-repeat;
+	    		}	
+	    	.phptag{
+	    		background-image:url(../images/icon_codephp.svg);
+				background-position-x: 100%;
+    			background-size: 80px;
+    			background-repeat: no-repeat;
+	    		}
+	    	.jstag{
+	    		background-image:url(../images/icon_codeJS.svg);
+				background-position-x: 100%;
+    			background-size: 80px;
+    			background-repeat: no-repeat;
+	    		}
 		}
 	}
 	.fourpart{
@@ -122,4 +126,19 @@
 
 		}
 	}
+}
+.bg-animation{
+	position: absolute;
+	opacity: 1;
+	left: 0%;
+	top: -20%;
+	width: 100%;
+	height:85%;
+	background-image: url();
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: $bgbase-color;
+	-webkit-transform: skewY(-10deg);
+	transform: skewY(-10deg);
+	z-index: -1;
 }

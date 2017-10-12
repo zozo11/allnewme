@@ -1,20 +1,17 @@
 <div class="bg-animation"></div>
-<div class="container-fluid">
+<div class="homebannerspecial">
 	<div class="header-holder">
 		<div class="topcontianer">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-10 col-md-offset-1 layout">
-						<div class="maintext">Hello, I am Zoe Wang(image)</div>
-						<div class="topinfor">
-							<div>UX/UI DESIGNER &</div>
-							<div>WEB DEVELOPER</div>
-						</div>
-					</div>
-				</div>
+			<div class="container topinfor">
+        <div class="row">				
+				  <div class="col-sm-12 col-md-6 homebannerword" id="Hotnews"></div>
+          <div class="col-sm-12 col-md-6"><img src="<?php echo asset_url('images/homebanner.svg') ?>" /></div>
+        </div>
 			</div>
 		</div>
 	</div>
+</div>
+<div class="container-fluid">
 	<div class="sectiontwo">
 		<div class="container-fluid">
 			<div class="container">
@@ -51,12 +48,14 @@
 	<div class="thirdpart">
 		<div class="bg-three"></div>
 		<div class="container-fluid">
+			<div class="titleimageicon"><img src="<?php echo asset_url('images/bigicon.svg') ?>" alt="hometitleicon"></div>
 			<div class="thirdtitle">Code skill</div>
+			<div class="subdescribe">Never for a moment has stop to rebuild mind</div>
 			<hr>
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 col-md-4 thirdbord">
-						<div class="innerthird">
+						<div class="innerthird htmltag">
 							<div class="maintitle">HTML5/CSS3</div>
 							<div class="thirdbody">
 								<div class="thirdskill">1</div>
@@ -69,7 +68,7 @@
 						</div>
 					</div>
 					<div class="col-sm-12 col-md-4 thirdbord">
-						<div class="innerthird">
+						<div class="innerthird phptag">
 							<div class="maintitle">PHP</div>
 							<div class="thirdbody">
 								<div class="thirdskill">Magento</div>
@@ -81,7 +80,7 @@
 						</div>
 					</div>
 					<div class="col-sm-12 col-md-4 thirdbord">
-						<div class="innerthird">
+						<div class="innerthird jstag">
 							<div class="maintitle">JavaScript</div>
 							<div class="secondbody">
 								<div class="thirdskill">1</div>
@@ -100,7 +99,9 @@
 	</div>
 	<div class="fourpart">
 		<div class="container-fluid">
+			<div class="titleimageicon"><img src="<?php echo asset_url('images/bigiconds.svg') ?>" alt="hometitleicon"></div>
 			<div class="fourtitle">Design skill</div>
+			<div class="subdescribe">From the past to the present see what i did</div>
 			<hr>
 			<div class="container">
 				<div class="row">
@@ -144,13 +145,4 @@
 			</div>
 		</div>
 	</div>
-<!-- 	<div class="fivepart">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="">
-					<div>Ecommer Website</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
 </div>

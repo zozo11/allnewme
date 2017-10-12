@@ -8,14 +8,15 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="<?php echo asset_url('css/bootstrap.min.css');?>">
     <link rel="stylesheet" type="text/css" href="<?php echo asset_url('css/bootstrap.min.css.map');?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo asset_url('css/bootstrap-grid.css');?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo asset_url('css/bootstrap-reboot.css');?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo asset_url('css/allnewme.css');?>">
-	<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <link rel="stylesheet" type="text/css" href="<?php echo asset_url('js/bootstrap.js');?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo asset_url('js/bootstrap.js');?>">
-	<script src="//cdn.ckeditor.com/4.7.2/basic/ckeditor.js"></script>
+  	<link rel="stylesheet" type="text/css" href="<?php echo asset_url('css/bootstrap-grid.css');?>">
+  	<link rel="stylesheet" type="text/css" href="<?php echo asset_url('css/bootstrap-reboot.css');?>">
+  	<link rel="stylesheet" type="text/css" href="<?php echo asset_url('css/allnewme.css');?>">
+  	<!-- Optional JavaScript -->
+    <script src="<?php echo asset_url('js/jquery-3.2.1.min.js');?>" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="<?php echo asset_url('js/jquery-ui-1.12.1.custom/jquery-ui.min.js');?>" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="<?php echo asset_url('js/popper.min.js');?>" type="text/javascript" charset="utf-8" async defer></script>
+  	<script src="<?php echo asset_url('js/main.js');?>" type="text/javascript"></script>
+    <script src="<?php echo asset_url('js/bootstrap.js');?>" type="text/javascript" charset="utf-8" async defer></script>
   </head>
   <body>
 	<nav class="navbar">
@@ -25,8 +26,9 @@
 					<div class="navbar-header">
 						<a class="navbar-brand" href="<?php echo base_url(); ?>">ZOE LOVE U</a>
 					</div>
-					<div class="navbar-body">
-						<div class="navbar-nav">
+          <div class="smallmenu"></div>
+					<div class="navbar-body">      
+						<div class="navbar-nav">          
 							<div class="headermenu liststyle">
 								<span class="hvr-underline-from-left"><a href="<?php echo base_url(); ?>">Home</a></span>
 								<span class="hvr-underline-from-left"><a href="<?php echo base_url(); ?>about">About</a></span>
@@ -87,3 +89,4 @@
        <?php if($this->session->flashdata('user_loggedout')): ?>
         <?php echo '<p class="alert alert-success">'.$this->session->flashdata('user_loggedout').'</p>'; ?>
       <?php endif; ?>
+
